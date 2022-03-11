@@ -1,0 +1,29 @@
+
+/* products */
+section div  {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+section div div  {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+main div button {
+    padding: 5px;
+    width: 100px;
+    border: rgb(173, 114, 36) 1px solid;
+}
+
+main div button:hover  {
+    background-color: rgba(173, 114, 36, 0.5);
+}
+
+.items {
+    width: 200px;
+}

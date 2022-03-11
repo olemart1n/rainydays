@@ -1,0 +1,30 @@
+@import url(/styles/navbar.css);
+@import url(/styles/products.css);
+@import url(/styles/footer.css);
+@import url(/styles/global.css);
+
+
+/*----div with picture---- */
+main div  {
+    position: relative;
+}
+main div img {
+    width: 60%;
+    margin: 20px;
+}
+
+main div p {
+    position: absolute;
+    top: 30px;
+    color: white;
+    left: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+@media (max-width: 900px) {
+    main div img {
+    width: 100%;
+    margin: 0px;
+    }
+}
+

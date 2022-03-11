@@ -1,0 +1,11 @@
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fac83d;
+
+}
+footer div {
+    flex: 1;
+    padding: 20px;
+}

@@ -1,0 +1,17 @@
+@import url(/styles/navbar.css);
+@import url(/styles/products.css);
+@import url(/styles/footer.css);
+@import url(/styles/global.css);
+
+
+
+figure div {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+figure {
+    margin: auto;
+}

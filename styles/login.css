@@ -1,0 +1,28 @@
+@import url(/styles/navbar.css);
+@import url(/styles/footer.css);
+@import url(/styles/global.css);
+
+div {
+    margin: 10px auto;
+    text-transform: capitalize;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0px auto;
+    max-width: 500px;
+}
+
+#btn {
+    width: 100px;
+    padding: 4px;
+    margin-top: 10px;
+    background-color: rgba(173, 114, 36, .8);
+    border: 0px;
+}
+
+#btn:hover {
+    border: 1px solid black;
+}
